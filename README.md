@@ -28,8 +28,7 @@ N-Connet is a real-time chat application built using the MERN (MongoDB, Express.
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/n-connet.git
-   cd n-connet
+   git clone [https://github.com/yourusername/n](https://github.com/nileshnwani/N-connet.git
    ```
 
 2. **Set up the backend:**
@@ -81,12 +80,8 @@ N-Connet is a real-time chat application built using the MERN (MongoDB, Express.
 - `POST /api/message/` - Send a message
 - `GET /api/message/:chatId` - Get messages in a chat
 
-## Screenshots
-(Add screenshots here if available)
 
 ## License
 This project is licensed under the MIT License.
 
-## Contributors
-- [Your Name](https://github.com/yourusername)
 
