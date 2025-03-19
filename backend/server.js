@@ -23,7 +23,8 @@ app.use("/api/message", messageRoutes);
 
 // --------------------------deployment------------------------------
 
-const __dirname1 = path.resolve();
+//const __dirname1 = path.resolve();
+const __dirname1="https://github.com/nileshnwani/N-connect/blob/main";
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname1, "/frontend/build")));
