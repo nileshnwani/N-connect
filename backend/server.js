@@ -23,9 +23,9 @@ app.use("/api/message", messageRoutes);
 
 // --------------------------deployment------------------------------
 
-const __dirname1 = "opt/render/project/";
+const __dirname1 = path.resolve(); // Set {__dirname} to current working directory
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname1, "frontend/build")));
+  app.use(express.static(path.join(__dirname1, "/frontend/build")));
 
   app.get("*", (req, res) =>
     res.sendFile(path.resolve(__dirname1, "frontend", "build", "index.html"))
